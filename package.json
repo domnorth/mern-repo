@@ -1,0 +1,24 @@
+{
+  "name": "mern-zion",
+  "version": "1.0.0",
+  "description": "Full-stack web appliction leveraging MongoDB, Express, React & Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domnorth/mern-zion.git"
+  },
+  "keywords": [],
+  "author": "Dominique Northecide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domnorth/mern-zion/issues"
+  },
+  "homepage": "https://github.com/domnorth/mern-zion#readme",
+  "dependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
